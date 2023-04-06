@@ -1,0 +1,154 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Space+Grotesk:wght@500&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  p {
+    margin: 20px;
+  }
+  
+  .contact-methods {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-methods h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .contact-methods p {
+    margin-top: 0;
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  
+  .pickle-hold{
+    position: relative;
+    width:2000px;
+    top: 500px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Secular One", sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    background-image: radial-gradient(circle, #EBF7E3, #9BD770, #66B032, #375F1B, #1B3409);
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #1B3409;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h1{
+    position: relative;
+    right: 450px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #EBF7E3;
+  }
+  
+  main {
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+  }
+  
+  section {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    display: inline-block;
+    background-color: #66B032;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+  
+  a:hover {
+    background-color: #375F1B;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    height: 250px;
+    top: 120px;
+  }
+  .copy{
+    position: relative;
+    bottom: 350px;
+  }
+  .company-info {
+    flex: 1;
+    padding: 0 30px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 600px;
+    bottom: 200px;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .logo img {
+    height: 200px;
+    width: 200px;
+    float: center;
+   
+  }

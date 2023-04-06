@@ -1,0 +1,129 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Space+Grotesk:wght@500&display=swap');
+
+html, body,main, header{
+    height: 100%;
+    
+}
+body{
+    font-family:'Secular One', sans-serif;
+}
+html{
+    background-image:url(../images/111111043551-pickles.jpg);
+    background-size: 2150px 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video{
+    position: relative;
+    right: 1450px;
+    bottom:530px
+}
+.factory-image{
+    position: relative;
+    left: 1300px;
+    top: 10px;
+}
+.factory-inside{
+    position: relative;
+    left: 1400px;
+    top: 50px;
+}
+
+.main-header-titles{
+    height:100%; 
+    color:#fff;
+}
+
+.main-header-titles h1{
+    font-family: 'Secular One',sans-serif;
+    font-size: 95px;
+    text-shadow: 5px 5px rgba(0,0,0,0.5);
+    padding: 20px; 
+    bottom: 40px;
+    width: 1125px;
+    right: 500px;
+    background-color:#9BD770;
+    margin-inline-start: 600px;
+    margin-inline-end: 600px;
+    position: relative;
+    right: 2000px;
+    bottom: 900px;
+}
+
+.main-header-titles p{
+    font-family:'Secular One', serif;
+    font-size: 30px;
+    line-height: 1.5em;
+    display:flex;
+    background-color:rgba(0,0,0, 0.5);
+    text-shadow:2px 2px black;
+    padding: 10px;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    position: relative;
+    right: 1600px;
+    bottom: 900px;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #EBF7E3;
+  }
+
+  footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    height: 250px;
+    top: 120px;
+  }
+  .copy{
+    position: relative;
+    bottom: 350px;
+  }
+  .company-info {
+    flex: 1;
+    padding: 0 30px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 600px;
+    bottom: 200px;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .logo img {
+    height: 200px;
+    width: 200px;
+    float: center;
+   
+  }
