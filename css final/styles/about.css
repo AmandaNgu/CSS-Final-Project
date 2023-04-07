@@ -2,29 +2,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Space+Grotesk:wght@500&display=swap');
 
-/* General Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   background-color: #f2f2f2;
   margin: 0;
+  background-image: radial-gradient(circle, #EBF7E3, #9BD770, #66B032, #375F1B, #1B3409);
+    background-size: cover;
 }
 
-
-
-
-
-/* Navigation Menu Styles */
 header {
+  font-family:'Secular One', sans-serif;
   background-color: #1B3409;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  height: 100px;
 }
 
 header h1{
+  font-family:'Secular One', sans-serif;
   position: relative;
-  right: 450px;
+  right: 540px;
+  font-size: 50px;
 }
 
 nav ul {
@@ -57,7 +58,8 @@ main {
   padding: 50px 20px;
   text-align: center;
   position: relative;
-  bottom: 500px;
+  bottom: 50px;
+  
 }
 
 section {
@@ -83,16 +85,6 @@ a:hover {
   background-color: #375F1B;
 }
 
-
-
-
-
-/* Header Section Styles */
-header {
-  text-align: center;
-}
-
-/* Content Section Styles */
 .content {
   max-width: 800px;
   margin: 0 auto;
@@ -102,38 +94,47 @@ header {
 }
 
 
-
-
-html, body,main, header{
-    height: 100%;
-    
-}
-body{
-    font-family:'Secular One', sans-serif;
-}
-
-/*.video{
+.video{
     position: relative;
-    right: 1450px;
-    bottom:530px
+    top:100px
 }
 .factory-image{
     position: relative;
-    left: 1300px;
+    left: 750px;
     top: 10px;
+    height: 10px;
+}
+.scoop-pickle{
+  position: relative;
+    left: 750px;
+    top: 325px;
+    height: 10px;
+}
+.gals-picklin{
+  position: relative;
+    left: 750px;
+    top: 640px;
+    height: 10px;
+
 }
 .factory-inside{
     position: relative;
-    left: 1400px;
-    top: 50px;
-}*/
-
-
-
-
-
-
-
+    right: 750px;
+    top: 10px;
+    height:10px
+}
+.scoop-factory{
+  position: relative;
+    right: 750px;
+    top: 325px;
+    height:10px
+}
+.pickle-shower{
+  position: relative;
+    right: 750px;
+    top: 640px;
+    height:10px
+}
 
   footer {
     background-color: #333;
@@ -143,10 +144,12 @@ body{
     position: relative;
     height: 250px;
     top: 120px;
+    font-family: 'Secular One', sans-serif;
   }
   .copy{
     position: relative;
-    bottom: 350px;
+    bottom: 320px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   .company-info {
     flex: 1;
@@ -163,5 +166,6 @@ body{
     height: 200px;
     width: 200px;
     float: center;
-   
+    position: relative;
+    top: 20px;
   }

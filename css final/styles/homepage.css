@@ -7,10 +7,10 @@
   
   .pickle-hold{
     position: relative;
-    width:2000px;
-    top: 500px;
+    left: 1330px;
+    height: 10px;
   }
-  
+ 
   body {
     margin: 0;
     font-family: "Secular One", sans-serif;
@@ -18,19 +18,25 @@
     line-height: 1.5;
     background-image: radial-gradient(circle, #EBF7E3, #9BD770, #66B032, #375F1B, #1B3409);
     background-size: cover;
+    background-repeat: no-repeat;
   }
   
   header {
+    font-family:'Secular One', sans-serif;
     background-color: #1B3409;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    height: 140px;
   }
-
+  
   header h1{
+    font-family:'Secular One', sans-serif;
     position: relative;
     right: 450px;
+    font-size: 50px;
   }
   
   nav ul {
@@ -63,7 +69,8 @@
     padding: 50px 20px;
     text-align: center;
     position: relative;
-    bottom: 500px;
+    bottom: 50px;
+    
   }
   
   section {
@@ -81,13 +88,14 @@
     color: #FFF;
     padding: 10px 20px;
     border-radius: 5px;
-    text-decoration: none;
+    text-decoration:none;
     transition: 0.2s ease;
   }
   
   a:hover {
     background-color: #375F1B;
   }
+  
   
   
   footer {
@@ -101,7 +109,8 @@
   }
   .copy{
     position: relative;
-    bottom: 350px;
+    bottom: 320px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   .company-info {
     flex: 1;
@@ -118,6 +127,8 @@
     height: 200px;
     width: 200px;
     float: center;
+    position: relative;
+    top: 20px;
    
   }
   

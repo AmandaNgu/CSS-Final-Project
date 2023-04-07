@@ -4,8 +4,8 @@
 
 html,
 body,
-main,
-header {
+main
+ {
     height: 100%;
 
 }
@@ -45,7 +45,7 @@ html {
     top: 5px;
 }
 
-h2 {
+.content h2 {
     font-family: 'Kanit', sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
     margin-inline-start: 700px;
@@ -57,7 +57,7 @@ h2 {
 
 }
 
-h3 {
+.content h3 {
     font-family: 'Kanit', sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
     margin-inline-start: 900px;
@@ -71,7 +71,7 @@ h3 {
 }
 
 
-p {
+.content p {
     font-family: 'Merriweather', serif;
     font-size: 30px;
     line-height: 1.5em;
@@ -138,21 +138,22 @@ tr {
 }
 
 header {
+    font-family: 'Secular One', sans-serif;
     background-color: #1B3409;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    height: 150px;
-
+    height: 100px;
 }
 
 header h1 {
-    position: relative;
-    right: 400px;
     font-size: 50px;
-
+    font-family: 'Secular One', sans-serif;
+    position: relative;
+    right: 415px;
+    
 }
 
 nav ul {
@@ -203,37 +204,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #1abc9c;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 32px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav li {
-    margin-left: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-
 footer {
     background-color: #333;
     color: #FFF;
@@ -246,7 +216,8 @@ footer {
 
 .copy {
     position: relative;
-    bottom: 350px;
+    bottom: 320px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .company-info {
@@ -265,5 +236,7 @@ footer {
     height: 200px;
     width: 200px;
     float: center;
+    position: relative;
+    top: 20px;
 
 }
